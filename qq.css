@@ -1,0 +1,168 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+.img-header {
+    width: 45px;
+    height: 24px;
+    vertical-align: top;
+}
+
+.top-nav {
+    position: relative;
+    height: 66px;
+}
+
+.header-nav {
+    padding-left: 10px;
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    margin-left: 30px;
+}
+
+.header-text {
+    position: absolute;
+    top: 20px;
+    right: 10px;
+}
+
+.header-top {
+    height: 66px;
+}
+
+.video-box {
+    position: relative;
+    height: 100%;
+}
+
+.video-background {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    width: 100vw;;
+
+    background-attachment: fixed;
+}
+
+.header-nav a {
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+.header-text a {
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+.img-content {
+    display: flex;
+    justify-content: end;
+    padding-right: 40px;
+    margin-top: 10px;
+}
+
+.header-nav a:hover {
+    color: blue;
+}
+
+.header-text a:hover {
+    color: blue;
+}
+
+.img-body {
+    width: 16px;
+    height: 16px;
+}
+
+.into:hover {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.header-img {
+    width: 100%;
+    border: 1px solid hsla(0, 0%, 100%, 0.08);
+}
+
+.into {
+    background-color: rgba(0, 0, 0, 0.2);
+    border: 0px solid;
+    border-radius: 50%;
+    cursor: pointer;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-text {
+    width: 56px;
+    height: 27px;
+}
+
+.header-nav a {
+    color: #fff;
+}
+
+.header-text a {
+    color: #fff;
+}
+
+.footer-img {
+    width: 20px;
+    height: 20px;
+}
+
+.text-last {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-top {
+    margin-top: 180px;
+}
+
+.img-text {
+    cursor: pointer;
+}
+
+.span-nav {
+    font-size: 100%;
+    display: inline-block;
+    height: 50px;
+    vertical-align: top;
+    font-size: 100%;
+    display: inline-block;
+    height: 50px;
+    font-size: 30px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.body-item {
+    cursor: pointer;
+    color: #fff;
+}
+
+.footer-nav {
+    color: #fff;
+    width: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-footer {
+    width: 1px;
+}
+
+nav {
+    color: hsla(0, 0%, 100%, 0.48);
+}
